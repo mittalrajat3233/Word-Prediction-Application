@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Word Prediction</title>
+<link rel="stylesheet" type="text/css" href="/css/nextWordPredict.ui.css"> 
+</head>
+<body>
+<h1>Word Prediction</h1>
+<p></p>
+<p>This Shiny App has been made for predicting the next word using input text entered. Natural language processing  (NLP) techniques are used for the prediction.
+<h2>Strategy</h2>
+<p> I have used: </p>
+<li>N-grams based approachy and have used Stupid Back-off</li>
+<br>
+<li>NGramTokenizer of the RWeka package to make n-grams (n = 1, 2, 3, 4, 5)</li>
+<br>
+<li>Computed frequencies from n-grams vectors which is the basis for the prediction algorithms</li>
+<p></p>
+<h2> Short-comings/ToDo </h2>
+<br>
+<li>More calibration can be done for accuracy and speed</li>
+<br>
+<li>Look for the ways to train bigger corpus efficiently </li>
+<br><li>Comparison with other algorithms can be done</li>
+<br>
+<li>More smoothing methods like Kneser-Ney can be explored </li> 
+<br>
+<br>
+<div id="footer_text">
+<span>In assocation with:</span>
+<br>
+</div>
+</body>
+</html>
