@@ -1,1 +1,1 @@
-# Word-Prediction-Applivation
+# Word-Prediction-Application
